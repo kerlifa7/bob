@@ -2,11 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Repository Status
+## Commands
 
-This repository (`bob`) is in its initial state and contains no source code yet — only a placeholder README. There are no build tools, test frameworks, or established conventions to document.
+```bash
+node index.js   # run the app
+npm start       # same as above
+```
 
-When code is added, update this file with:
-- Build, lint, and test commands
-- Architecture overview and key design decisions
-- Any non-obvious conventions or constraints
+## Architecture
+
+Minimal Node.js project. Entry point is `index.js`.
